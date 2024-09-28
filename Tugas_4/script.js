@@ -1,8 +1,8 @@
 document.getElementById('submit_js').addEventListener('click', function() {
     // Mengambil Data
     const npm = document.getElementById('npm').value;
-    const nama = document.getElementById('nama').value.toUpperCase(); // Ubah nama jadi huruf besar
-    const alamat = document.getElementById('alamat').value.toUpperCase(); // Ubah alamat jadi huruf besar
+    const nama = document.getElementById('nama').value.toUpperCase();
+    const alamat = document.getElementById('alamat').value.toUpperCase();
     const tempat_lahir = document.getElementById('tempat_lahir').value;
     const tanggal_lahir = document.getElementById('tanggal_lahir').value;
     const jenis_kelamin = document.querySelector('input[name="jenis_kelamin"]:checked').value;
@@ -11,7 +11,7 @@ document.getElementById('submit_js').addEventListener('click', function() {
     // Menampilkan Data
     const resultDiv = document.getElementById('result_js');
     resultDiv.innerHTML = `
-      <h2>Data Mahasiswa (Processed by JavaScript):</h2>
+      <h2>Data Mahasiswa (Diproses Dengan JavaScript):</h2>
       NPM: ${npm} <br>
       Nama: ${nama} <br>
       Alamat: ${alamat} <br>
