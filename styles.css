@@ -59,6 +59,10 @@ body {
     text-decoration: underline;
 }
 
+.section-about p {
+    text-align : justify;
+}
+
 .section-about,
 .section-tugas,
 .section-contact,
@@ -78,7 +82,6 @@ body {
     color: #00796b;
 }
 
-.section-about p,
 .section-tugas p,
 .section-tugas ul
 .section-organisasi p,
