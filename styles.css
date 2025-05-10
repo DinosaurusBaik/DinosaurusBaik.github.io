@@ -61,14 +61,18 @@ body {
 
 .section-about,
 .section-tugas,
-.section-contact {
+.section-contact,
+.section-organisasi,
+.section-panitia {
     padding: 40px 0;
     border-bottom: 1px solid #ccc;
 }
 
 .section-about h2,
 .section-tugas h2,
-.section-contact h2 {
+.section-contact h2,
+.section-organisasi h2,
+.section-panitia h2 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #00796b;
@@ -76,11 +80,17 @@ body {
 
 .section-about p,
 .section-tugas p,
-.section-tugas ul {
+.section-tugas ul
+.section-organisasi p,
+.section-panitia p, 
+.section-organisasi ul,
+.section-panitia ul {
     font-size: 1.1rem;
 }
 
-.section-tugas ul {
+.section-tugas ul,
+.section-organisasi ul,
+.section-panitia ul {
     list-style-type: disc;
     margin-left: 20px;
 }
